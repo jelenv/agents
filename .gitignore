@@ -1,0 +1,12 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*~

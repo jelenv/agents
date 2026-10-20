@@ -1,0 +1,5 @@
+interface:
+  display_name: "Test Audit"
+  short_description: "Gate new tests and prune low-value ones"
+policy:
+  allow_implicit_invocation: false

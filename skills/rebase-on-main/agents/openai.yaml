@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rebase on Main"
+  short_description: "Rebase a branch and handle conflicts"
+  default_prompt: "Use $rebase-on-main to rebase my current branch onto main and resolve conflicts carefully."
+policy:
+  allow_implicit_invocation: false
