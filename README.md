@@ -29,10 +29,10 @@ Then ask your agent to use `test-audit`. Installation paths and invocation synta
 [test-audit](skills/test-audit/SKILL.md), including its campaign guide, comes from
 [OpenClaw](https://github.com/openclaw/openclaw/tree/main/.agents/skills/test-audit).
 I adapted it to use each repository's own tools and validation commands.
-It is MIT licensed, copyright 2026 OpenClaw Foundation; the full notice is in [skills/test-audit/LICENSE](skills/test-audit/LICENSE).
 
 [deep-review-pr](skills/deep-review-pr/SKILL.md) is adapted from
-[github-deep-review by Peter Steinberger (steipete)](https://github.com/steipete/agent-scripts/blob/main/skills/github-deep-review/SKILL.md). I added branch, worktree, and local-change review workflows and removed reliance on a specific hosting service. It is MIT licensed, copyright 2026 Peter Steinberger;
-the full notice is in [skills/deep-review-pr/LICENSE](skills/deep-review-pr/LICENSE).
+[github-deep-review by Peter Steinberger (steipete)](https://github.com/steipete/agent-scripts/blob/main/skills/github-deep-review/SKILL.md). I added branch, worktree, and local-change review workflows and removed reliance on a specific hosting service.
 
-`review-pr`, `rebase-on-main`, and my changes to the adapted skills are available under the root [MIT license](LICENSE). Keep the applicable license notices when copying or redistributing these skills.
+`review-pr`, `rebase-on-main`, and my changes to the adapted skills are available under the root [MIT license](LICENSE).
+
+Keep the applicable license notices when copying or redistributing these skills.
