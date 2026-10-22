@@ -10,6 +10,10 @@ of instructions in a `SKILL.md` file that a coding agent reads when you invoke i
 - [test-audit](skills/test-audit/SKILL.md) checks whether tests catch meaningful regressions. Use it when writing tests or auditing an existing suite. It includes a guide for auditing a whole subsystem.
 - [rebase-on-main](skills/rebase-on-main/SKILL.md) rebases the current branch onto the repository's mainline, works through conflicts, and validates the result. It stops before pushing.
 
+## Other useful skills
+
+- [security-audit](https://github.com/cloudflare/security-audit-skill) from Cloudflare audits a codebase for vulnerabilities across real trust boundaries, validates each candidate with a fresh agent, and writes a structured report.
+
 ## Install a skill
 
 Copy the whole skill directory into your agent's skills directory. Keep its
