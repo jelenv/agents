@@ -1,0 +1,6 @@
+interface:
+  display_name: "Simplify & Optimize"
+  short_description: "Apply behaviour-preserving simplifications and optimizations"
+  default_prompt: "Use $simplify-optimize on the uncommitted changes."
+policy:
+  allow_implicit_invocation: false

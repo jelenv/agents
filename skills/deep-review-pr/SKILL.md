@@ -1,6 +1,7 @@
 ---
 name: deep-review-pr
-description: Deep code review - bugs, branch changes, uncommitted changes, best fix, stale-or-real, read code first. Use only when explictly asked to do deep-review-pr.
+description: Deep, evidence-first review of a branch, PR or uncommitted changes - root cause, provenance, best fix, stale-or-real.
+disable-model-invocation: true
 ---
 
 # Deep Review PR

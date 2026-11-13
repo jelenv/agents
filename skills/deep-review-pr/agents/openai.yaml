@@ -1,4 +1,6 @@
 interface:
   display_name: "Deep Review PR"
   short_description: "Evidence-first branch and PR review"
-  default_prompt: "Use deep-review-pr to review this branch as a PR into the mainline branch."
+  default_prompt: "Use $deep-review-pr to review this branch as a PR into the mainline branch."
+policy:
+  allow_implicit_invocation: false

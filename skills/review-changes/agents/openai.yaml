@@ -1,0 +1,6 @@
+interface:
+  display_name: "Review Changes"
+  short_description: "Read-only review of uncommitted changes, a branch or a PR"
+  default_prompt: "Use $review-changes to review the uncommitted changes."
+policy:
+  allow_implicit_invocation: false
